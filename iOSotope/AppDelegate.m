@@ -25,8 +25,8 @@
 }
 
 - (void)loadInitialViewController {
-    self.mainViewController = [[MainViewController alloc] init];
-    [self.window addSubview:[self.mainViewController view]];
+    _mainViewController = [[MainViewController alloc] init];
+    [self.window setRootViewController:_mainViewController];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
