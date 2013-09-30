@@ -19,6 +19,8 @@
 		71E68E9B17FA2268001CAFF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E68E8317FA2268001CAFF9 /* UIKit.framework */; };
 		71E68EA317FA2268001CAFF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71E68EA117FA2268001CAFF9 /* InfoPlist.strings */; };
 		71E68EA517FA2268001CAFF9 /* iOSotopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E68EA417FA2268001CAFF9 /* iOSotopeTests.m */; };
+		886756D417FA2C050020D54D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 886756D317FA2C050020D54D /* MainViewController.m */; };
+		886756D717FA2C1D0020D54D /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 886756D617FA2C1D0020D54D /* MainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		71E68EA017FA2268001CAFF9 /* iOSotopeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSotopeTests-Info.plist"; sourceTree = "<group>"; };
 		71E68EA217FA2268001CAFF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71E68EA417FA2268001CAFF9 /* iOSotopeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSotopeTests.m; sourceTree = "<group>"; };
+		886756D217FA2C050020D54D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		886756D317FA2C050020D54D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		886756D517FA2C1D0020D54D /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		886756D617FA2C1D0020D54D /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 			children = (
 				71E68E8E17FA2268001CAFF9 /* AppDelegate.h */,
 				71E68E8F17FA2268001CAFF9 /* AppDelegate.m */,
+				886756D217FA2C050020D54D /* MainViewController.h */,
+				886756D317FA2C050020D54D /* MainViewController.m */,
+				886756D517FA2C1D0020D54D /* MainView.h */,
+				886756D617FA2C1D0020D54D /* MainView.m */,
 				71E68E9117FA2268001CAFF9 /* Images.xcassets */,
 				71E68E8617FA2268001CAFF9 /* Supporting Files */,
 			);
@@ -240,6 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				71E68E9017FA2268001CAFF9 /* AppDelegate.m in Sources */,
+				886756D717FA2C1D0020D54D /* MainView.m in Sources */,
+				886756D417FA2C050020D54D /* MainViewController.m in Sources */,
 				71E68E8C17FA2268001CAFF9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +453,7 @@
 				71E68EAA17FA2268001CAFF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71E68EAB17FA2268001CAFF9 /* Build configuration list for PBXNativeTarget "iOSotopeTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +462,7 @@
 				71E68EAD17FA2268001CAFF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
